@@ -580,13 +580,22 @@ button:hover {
 
 /* Button close */
 
-.close {
+.modal-close-btn {
   position: absolute;
   top: 24px;
   right: 24px;
-  border-radius: 50%;
   width: 24px;
   height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e7e9fc;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .ellipse-close {
@@ -667,18 +676,17 @@ form {
 }
 
 .modal-button {
-  display: block;
-  min-width: 169px;
-  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 56px;
+  margin-left: 119px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
-  margin-top: 24px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  text-align: center;
-  color: #fff;
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
 }
 
 .visually-hidden {
@@ -690,4 +698,15 @@ form {
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   border: 0;
+}
+
+.modal-checkox {
+  width: 360px;
+  height: 16px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  margin-bottom: 24px;
 }
