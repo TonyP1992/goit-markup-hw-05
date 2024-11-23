@@ -596,6 +596,18 @@ button:hover {
   stroke: rgba(0, 0, 0, 0.1);
 }
 
+form {
+  border-radius: 4px;
+  width: 360px;
+  height: 336px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
+  margin-left: 24px;
+}
+
 .modal-paragraph {
   display: flex;
   align-items: center;
@@ -620,9 +632,9 @@ button:hover {
 .form-input {
   border-radius: 4px;
   height: 40px;
-  padding: 8px 38px;
+  padding: 8px 24px;
   border: 1px solid rgba(46, 47, 66, 0.4);
-  width: 100%;
+  width: 360px;
 }
 
 .input-wrapper {
@@ -644,4 +656,9 @@ button:hover {
   line-height: 1.16667;
   letter-spacing: 0.04em;
   color: #8e8f99;
+}
+
+.comment {
+  width: 360px;
+  height: 138px;
 }
