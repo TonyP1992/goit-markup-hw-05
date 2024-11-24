@@ -726,11 +726,12 @@ form {
 }
 
 .checkbox-span {
+  width: 360px;
+  height: 16px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
-  width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
@@ -764,13 +765,6 @@ form {
   border: 0;
 }
 
-.modal-checkox {
-  width: 360px;
-  height: 16px;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.16667;
-  letter-spacing: 0.04em;
-  color: #8e8f99;
-  margin-bottom: 24px;
+.privacy-policy {
+  color: #4d5ae5;
 }
