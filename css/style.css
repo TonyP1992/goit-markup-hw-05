@@ -660,9 +660,6 @@ form {
 .form-input .svg-modal:focus {
   fill: #4d5ae5;
 }
-.form-input:focus {
-  border-color: #4d5ae5;
-}
 
 .input-wrapper {
   position: relative;
@@ -688,6 +685,10 @@ form {
   letter-spacing: 0.04em;
   color: #8e8f99;
   line-height: 1.17;
+}
+
+.modal-form-comment {
+  margin-bottom: 16px;
 }
 
 .comment {
