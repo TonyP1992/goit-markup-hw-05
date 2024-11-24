@@ -671,7 +671,6 @@ form {
 
 .svg-modal {
   position: absolute;
-
   top: 50%;
   left: 16px;
   transform: translateY(-50%);
@@ -688,6 +687,9 @@ form {
   line-height: 1.16667;
   letter-spacing: 0.04em;
   color: #8e8f99;
+}
+
+.modal-form-field {
   line-height: 1.17;
 }
 
