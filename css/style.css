@@ -631,10 +631,7 @@ form {
   margin-left: 24px;
 }
 
-.modal-paragraph {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.modal-form-field {
 }
 
 .modal-prg-text {
@@ -654,6 +651,7 @@ form {
   padding: 8px 24px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   width: 360px;
+  background-color: transparent;
 }
 
 .input-wrapper {
@@ -662,6 +660,7 @@ form {
 
 .svg-modal {
   position: absolute;
+
   top: 50%;
   left: 16px;
   transform: translateY(-50%);
@@ -671,11 +670,14 @@ form {
 }
 
 .form-label {
+  display: block;
+  margin-bottom: 4px;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.16667;
   letter-spacing: 0.04em;
   color: #8e8f99;
+  line-height: 1.17;
 }
 
 .comment {
