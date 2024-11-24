@@ -555,25 +555,50 @@ button:hover {
 }
 
 .label-footer-form {
-  border: 1px solid #fff;
-  border-radius: 4px;
-  width: 264px;
-  height: 40px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background-color: #2e2f42;
+  color: #434455;
 }
 
 .footer-input {
-  background-color: #2e2f42;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  width: 264px;
+  height: 40px;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
+  padding: 8px 16px;
+  outline: transparent;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: border;
 }
 
 .button-subscr-footer {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border: none;
   border-radius: 4px;
-  padding: 8px 24px;
-  width: 165px;
-  height: 40px;
-  background-color: #4d5ae5;
+  font-weight: 500;
+  line-height: 1.5;
+  min-width: 165px;
+  min-height: 40px;
+  background: #4d5ae5;
   margin-left: 24px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background-color;
+  cursor: pointer;
+}
+
+.footer-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
 }
 
 /* Modal */
