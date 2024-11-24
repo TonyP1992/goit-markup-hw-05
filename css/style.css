@@ -551,14 +551,12 @@ button:hover {
   pointer-events: none;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  padding: 72px 24px 24px 24px;
 }
 
 .backdrop.is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
-  padding: 72px 24px 24px 24px;
 }
 
 .modal {
@@ -651,10 +649,19 @@ form {
 .form-input {
   border-radius: 4px;
   height: 40px;
-  padding: 8px 24px;
+  padding-left: 38px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   width: 360px;
   background-color: transparent;
+  outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-input .svg-modal:focus {
+  fill: #4d5ae5;
+}
+.form-input:focus {
+  border-color: #4d5ae5;
 }
 
 .input-wrapper {
