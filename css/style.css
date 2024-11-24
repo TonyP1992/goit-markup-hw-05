@@ -563,6 +563,7 @@ button:hover {
   position: absolute;
   top: 50%;
   left: 50%;
+  padding: 72px 24px 24px 24px;
   width: 408px;
   min-height: 584px;
   border-radius: 4px;
@@ -570,8 +571,8 @@ button:hover {
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
   background-color: #fcfcfc;
-
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: transform;
 }
 
 .backdrop:not(.is-open) .modal {
@@ -619,15 +620,8 @@ button:hover {
 }
 
 form {
-  border-radius: 4px;
-  width: 360px;
-  height: 336px;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: column;
-
-  margin-left: 24px;
+  display: block;
+  margin-top: 0em;
 }
 
 .modal-form-field {
@@ -635,14 +629,12 @@ form {
 }
 
 .modal-prg-text {
-  margin-top: 72px;
-  margin-bottom: 16px;
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 16px;
 }
 
 .form-input {
@@ -690,14 +682,11 @@ form {
 }
 
 .checkbox-label {
-  display: block;
-  margin-bottom: 4px;
-  font-weight: 400;
   font-size: 12px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  line-height: 1.17;
+  display: block;
 }
 
 .modal-form-comment {
