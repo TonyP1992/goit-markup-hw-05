@@ -661,7 +661,7 @@ form {
   fill: #4d5ae5;
 }
 
-.input :focus {
+.form-input :focus {
   border-color: #4d5ae5;
 }
 
