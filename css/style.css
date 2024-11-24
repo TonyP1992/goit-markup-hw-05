@@ -551,6 +551,7 @@ button:hover {
   pointer-events: none;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 72px 24px 24px 24px;
 }
 
 .backdrop.is-open {
@@ -562,6 +563,7 @@ button:hover {
 
 .modal {
   position: absolute;
+
   top: 50%;
   left: 50%;
   width: 408px;
@@ -627,11 +629,12 @@ form {
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
-  gap: 8px;
+
   margin-left: 24px;
 }
 
 .modal-form-field {
+  margin-bottom: 8px;
 }
 
 .modal-prg-text {
