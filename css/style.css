@@ -561,7 +561,6 @@ button:hover {
 
 .modal {
   position: absolute;
-  padding: 72px 24px 24px;
   top: 50%;
   left: 50%;
   width: 408px;
@@ -723,6 +722,10 @@ form {
 
 .comment:focus {
   border-color: #4d5ae5;
+}
+
+.modal-checkox {
+  margin-bottom: 24px;
 }
 
 .checkbox-span {
