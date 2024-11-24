@@ -693,6 +693,10 @@ form {
   margin-bottom: 16px;
 }
 
+.modal-checkbox {
+  margin-bottom: 24px;
+}
+
 .comment {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
@@ -711,10 +715,6 @@ form {
 
 .comment:focus {
   border-color: #4d5ae5;
-}
-
-.modal-checkox {
-  margin-bottom: 24px;
 }
 
 .checkbox-span {
