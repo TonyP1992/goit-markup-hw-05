@@ -540,6 +540,7 @@ button:hover {
 /* Modal */
 
 .backdrop {
+  padding: 72px 24px 24px 24px;
   position: fixed;
   top: 0;
   left: 0;
@@ -633,10 +634,6 @@ form {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-}
-
-.modal-form-field {
-  margin-bottom: 8px;
 }
 
 .form-input {
