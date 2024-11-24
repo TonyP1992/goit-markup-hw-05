@@ -702,7 +702,7 @@ form {
 }
 
 .modal-form-comment {
-  margin-bottom: 16px;
+  margin-bottom: 24px;
 }
 
 .comment {
@@ -726,7 +726,7 @@ form {
 }
 
 .checkbox-span {
-  width: 360px;
+  width: 16px;
   height: 16px;
   display: inline-flex;
   align-items: center;
