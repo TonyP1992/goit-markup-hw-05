@@ -540,7 +540,6 @@ button:hover {
 /* Modal */
 
 .backdrop {
-  padding: 72px 24px 24px 24px;
   position: fixed;
   top: 0;
   left: 0;
@@ -558,6 +557,7 @@ button:hover {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
+  padding: 72px 24px 24px 24px;
 }
 
 .modal {
