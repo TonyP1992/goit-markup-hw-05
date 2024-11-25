@@ -745,6 +745,10 @@ form {
   fill: #4d5ae5;
 }
 
+.form-input:focus {
+  border-color: #4d5ae5;
+}
+
 .form-label {
   display: block;
   margin-bottom: 4px;
