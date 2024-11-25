@@ -674,11 +674,7 @@ button:hover {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-close-btn:hover {
-  fill: #ffffff;
-}
-
-.modal-close-btn:focus {
+.modal-close-btn:focus .modal-close-btn:hover {
   fill: #ffffff;
 }
 
@@ -686,11 +682,7 @@ button:hover {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-close-btn:hover {
-  border: none;
-}
-
-.modal-close-btn:focus {
+.modal-close-btn:focus .modal-close-btn:hover {
   border: none;
 }
 
@@ -735,6 +727,11 @@ form {
   position: relative;
 }
 
+.visually-hidden:checked + .checkbox-label > .checkbox-span {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
 .svg-modal {
   position: absolute;
   top: 50%;
